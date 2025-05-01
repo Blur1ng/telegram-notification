@@ -1,8 +1,5 @@
 from app.notification.telegram.telegram_main import start_telegram_app
 import asyncio
-from fastapi import FastAPI
-
-app = FastAPI()
 
 if __name__ == '__main__':
     print("----------------------------------------------------------------------------------------------------------------------")
