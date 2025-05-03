@@ -1,8 +1,8 @@
-# 📬 Telegram Notification Bot
+# Telegram Notification Bot
 
 Бот-уведомитель на базе `Aiogram` и `FastAPI`, предназначенный для отправки сообщений VIP-пользователям.
 
-## 🚀 Возможности
+## Возможности
 
 - Асинхронная работа с Telegram через [aiogram](https://github.com/aiogram/aiogram)
 - Интеграция с PostgreSQL через `SQLAlchemy`
@@ -11,7 +11,7 @@
 - Миграции с Alembic
 - `.env` конфигурация
 
-## ⚙️ Установка
+## Установка
 
 ```bash
 git clone https://github.com/Blur1ng/telegram-notification.git
@@ -20,13 +20,13 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-🔐 Переменные окружения
+## Переменные окружения
 Создайте .env файл в корне проекта:
 ```ini
 TOKEN=your_telegram_bot_token
 DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/dbname
 ```
-🧩Структура проекта
+## Структура проекта
 ```bash
 .
 ├── app/
